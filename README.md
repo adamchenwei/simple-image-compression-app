@@ -7,13 +7,13 @@
 ## Who are its intended users?
 It mostly meant for developers or tech savvy users to easily convert images to more compressed format easily in batch without using slow and limited online tools. However, this guide is written with minimal tech skills in mind to accomadate everyone. But if you felt something is missing. feel free to contribute by add a pull request.
 
-# How to Use It?
-## Basic Setup & Usage Guide
-### Pre-reqs
+## How to Use It?
+### Basic Setup & Usage Guide
+#### Pre-reqs
 1. install nodejs https://nodejs.org/en/download/
 2. install git https://git-scm.com/downloads
 
-### Steps to start the app
+#### Steps to start the app
 1. clone the project into your desired folder
 2. open command line interface (i.e. for Mac, its "Terminal" and for windows, its "Command Prompt")
 3. navigate into this project root folder and type `npm install`
@@ -30,10 +30,10 @@ options: {
     quality: <change to your desired quality>
 ```
 
-# Contribution
+## Contribution
 Feel free to start PR to add missing functionalities in the following title "Work In Progress (WIP) / Help Needed (HN) Functionalities", its pretty free style atm :D Enjoy!
 
-# Work In Progress (WIP) / Help Needed (HN) Functionalities
+## Work In Progress (WIP) / Help Needed (HN) Functionalities
 1. (HN) Create UI so non-developers can use it as well
 2. (HN) Allow customization of batch file name when converted
 3. (HN) Make it into a React Native / Electron App

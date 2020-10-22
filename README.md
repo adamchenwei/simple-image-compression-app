@@ -12,13 +12,14 @@ It mostly meant for developers or tech savvy users to easily convert images to m
 #### Pre-reqs
 1. install nodejs https://nodejs.org/en/download/
 2. install git https://git-scm.com/downloads
+3. [OPTIONAL] (if you want to just type webpack to run this app) npm install webpack -g
 
 #### Steps to start the app
 1. clone the project into your desired folder
 2. open command line interface (i.e. for Mac, its "Terminal" and for windows, its "Command Prompt")
 3. navigate into this project root folder and type `npm install`
 4. load all images need to convert into `./src` folder
-5. in the same command line interface, type `webpack`
+5. in the same command line interface, type `npm run convert` or just `webpack` if you proceeded with pre-reqs #3
 6. await conversion, then you should see all your converted image in `./dist` folder
 
 ## To Change Compression Ratio
